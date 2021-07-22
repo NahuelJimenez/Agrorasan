@@ -1,0 +1,383 @@
+/* ========================= SECCIÓN INDEX.HTML ========================================================== */
+body {
+    background: var(--color-bg);
+    font-family: var(--font-proyect);
+}
+h1, 
+h2 {
+    font-family: 'Bjorn Regular';
+}
+h2, p{
+    color: var(--color-text);
+}
+.logo_centrado {
+    width: 40vw;
+    text-align: center;
+    float: right;
+}
+nav{
+    font-weight: bold;
+    font-size: .75rem;
+}
+.cajaSecciones {
+    width: 60vw;
+    margin: auto;
+    float: left;
+    text-align: right;
+    padding-left: 60px;
+}
+.cajaSecciones .secciones {
+    font-family: var(--font-proyect);
+    font-size: .9rem;
+    color: var(--color-text);
+    padding-right: 50px;
+}
+.secciones a:hover {
+    border-bottom-style: solid;
+    border-bottom-width: 4px;
+    border-bottom-color: var(--color-first);
+    line-height: 10pt;
+}
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+    width: 100%;
+    background: url("../img/Index/slider/Imagen_de_fondo_Azul.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 120px 0 120px 0;
+}
+.btn-Boton {
+    height: 50px;
+    border: 2px solid var(--color-bg);
+    color: var(--color-bg);
+    font-weight: bold;
+}
+.btn-Boton:hover {
+    border: 2px solid white;
+    background: var(--color-bg);
+    color: var(--color-first);
+    font-weight: bold;
+}
+.text-h1 {
+    font-size: 2rem;
+}
+/*--------------------------------------------------------------
+# NOSOTROS
+--------------------------------------------------------------*/
+#Nosotros {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/Index/nosotros/Nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Nosotros .nosotros{
+    width: 100%;
+    height: 100%;
+}
+.cajaCard {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.cajaTextos p{
+    text-align: left;
+    text-align: justify;
+}
+#Nosotros p {
+    text-align: left;
+    text-align: justify;
+}
+#Mision p {
+    text-align: left;
+    text-align: justify;
+}
+/* ========================= SECCIÓN INDEX.HTML END ============================================ */
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/* ========================= SECCIÓN LINEAS-DE-NEGOCIOS.HTML =================================== */
+/*--------------------------------------------------------------
+# Hero LINEAS DE NEGOCIO
+--------------------------------------------------------------*/
+#hero2 {
+    width: 100%;
+    background: url("../img/Linea-de-negocios/1kw/background-Lineas-de-negocio.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 50px 0 120px 0;
+}
+.text2-h1 {
+    font-size: 2rem;
+    color: var(--color-first);
+}
+.btn-Boton2 {
+    height: 50px;
+    border: 2px solid var(--color-first);
+    color: var(--color-first);
+    font-weight: bold;
+}
+.btn-Boton2:hover {
+    border: 2px solid white;
+    background: var(--color-first);
+    color: var(--color-bg);
+    font-weight: bold;
+}
+.sinBorde td {border: 0; border-bottom:1px solid #000}
+/* ========================= SECCIÓN INFORMACION 1KW =========================================== */
+#kw1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* ========================= SECCIÓN TABLA-E1K ================================================= */
+#Tabla-E1k {
+  width: 100%;
+  padding-top: 5%;
+}
+
+/* ========================= SECCIÓN INFORMACION 4KW =========================================== */
+#kw4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* ========================= SECCIÓN TABLA-E4K ================================================= */
+#Tabla-E4k {
+  width: 100%;
+  padding-top: 5%;
+}
+
+/* ========================= SECCIÓN INFO1 SLIDER CARDS ======================================= */
+#InfoSlider1 {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-first);
+}
+
+#InfoSlider1 .h2-Info1{
+  font-size: 2.5rem;
+  color: var(--color-bg);
+}
+
+/* ========================= SECCIÓN INFO2 CARDS ============================================== */
+#InfoSlider2 {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-first);
+}
+
+#InfoSlider2 .h2-Info2{
+  font-size: 2.5rem;
+  color: var(--color-bg);
+}
+
+
+
+/* ========================= SECCIÓN INFORMACION 1KWEND ======================================== */
+/* ========================= SECCIÓN LINEAS-DE-NEGOCIOS.HTML END =============================== */
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/* ========================= SECCIÓN NOSOTROS.HMTL  ============================================ */
+/* ========================= SECCIÓN NOSOTROS.HMTL END ========================================= */
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/* ========================= SECCIÓN NOTICIAS.HTML  ============================================ */
+/* ========================= SECCIÓN NOTICIAS.HTML END ========================================= */
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/* ========================= SECCIÓN CONTACTO.HTML  ============================================ */
+/* ========================= SECCIÓN CONTACTO.HTML END ========================================= */
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+/*************************************************************************************************/
+.Cajafooter {
+    width: 100%;
+    background: var(--color-first);
+}
+.img-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Cajafooter p {
+    color: var(--color-bg);
+    margin-top: -16px;
+}
+
+/*========================= - - SECCION CONTACTO.HTML || SECCION CONTACTO.HTML SECCION || CONTACTO.HTML - - ==========*/
+/*====================================================================================================================*/
+/*====================================================================================================================*/
+  .heroc img {
+    width: 30rem;
+    display:block;
+    margin:auto;
+    padding-top: 2rem;
+  }
+
+  .contacto-text span {
+    color: var(--color-first);
+  }
+  
+  .contacto-text-p {
+    width: 70%;
+    font-weight: normal;
+  }
+  
+  .contact .info-box {
+    color: var(--color-first);
+    text-align: center;
+    box-shadow: 0 0 30px rgba(216, 215, 214, 0.4);  
+    padding: 20px 0 30px 0;
+  }
+  
+  .contact .info-box i {
+    font-size: 32px;
+    color: var(--color-first);
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted var(--color-first-light);
+  }
+  
+  .contact .info-box h3 {
+    font-size: 20px;
+    color: var(--color-text);
+    font-weight: 700;
+    margin: 10px 0;
+  }
+  
+  .contact .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .contact .php-email-form {
+    box-shadow: 0 0 30px rgba(216, 215, 214, 0.4);
+    padding: 30px;
+  }
+  
+  .contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .php-email-form .error-message br + br {
+    margin-top: 25px;
+  }
+  
+  .contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+  
+  .contact .php-email-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .contact .php-email-form input, .contact .php-email-form textarea {
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  
+  .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
+    border-color: var(--color-first);
+  }
+  
+  .contact .php-email-form input {
+    padding: 10px 15px;
+  }
+  
+  .contact .php-email-form textarea {
+    padding: 12px 15px;
+  }
+
+  .contact .php-email-form button[type="submit"] {
+    width: 160px;
+    height: 50px;
+    border: 2px solid var(--color-first);
+    color: var(--color-first);
+    font-weight: bold;
+    
+  }
+  
+  .contact .php-email-form button[type="submit"]:hover {
+    border: 2px solid white;
+    background: var(--color-first);
+    color: var(--color-bg);
+    font-weight: bold;
+  }
+  
+  @-webkit-keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes animate-loading {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }

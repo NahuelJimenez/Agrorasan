@@ -1,0 +1,81 @@
+@import url(//db.onlinewebfonts.com/c/86d9e378360a73912375f2b358022ae5?family=Bjorn+Regular);
+
+@font-face {
+    font-family: 'Bjorn Regular'; 
+    src: url("//db.onlinewebfonts.com/t/86d9e378360a73912375f2b358022ae5.eot"); 
+    src: url("//db.onlinewebfonts.com/t/86d9e378360a73912375f2b358022ae5.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/86d9e378360a73912375f2b358022ae5.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/86d9e378360a73912375f2b358022ae5.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/86d9e378360a73912375f2b358022ae5.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/86d9e378360a73912375f2b358022ae5.svg#Bjorn Regular") format("svg"); 
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../font/CenturyGothic.eot');
+    src: local('Century Gothic'), local('CenturyGothic'),
+        url('../font/CenturyGothic.woff2') format('woff2'),
+        url('../font/CenturyGothic.woff') format('woff'),
+        url('../font/CenturyGothic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../font/CenturyGothic-Bold.eot');
+    src: local('Century Gothic Bold'), local('CenturyGothic-Bold'),
+        url('../font/CenturyGothic-Bold.woff2') format('woff2'),
+        url('../font/CenturyGothic-Bold.woff') format('woff'),
+        url('../font/CenturyGothic-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../font/CenturyGothic-BoldItalic.eot');
+    src: local('Century Gothic Bold Italic'), local('CenturyGothic-BoldItalic'),
+        url('../font/CenturyGothic-BoldItalic.woff2') format('woff2'),
+        url('../font/CenturyGothic-BoldItalic.woff') format('woff'),
+        url('../font/CenturyGothic-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Century Gothic';
+    src: url('../font/CenturyGothic-Italic.eot');
+    src: local('Century Gothic Italic'), local('CenturyGothic-Italic'),
+        url('../font/CenturyGothic-Italic.woff2') format('woff2'),
+        url('../font/CenturyGothic-Italic.woff') format('woff'),
+        url('../font/CenturyGothic-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+:root {
+    /*========== Colors ==========*/
+    --color-first: #011689;
+    --color-second: #0fa5e2;
+    --color-dark: #373736;
+    --color-text: #666666;
+    --color-bg: #FFFFFF;
+
+
+    /*========== Font and typography ==========*/
+    --font-proyect: 'Century Gothic';
+    --font-title: 'Bjorn Regular';
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --parrafo-font-size: .85rem;
+    
+    
+    /*========== Margenes ==========*/
+    --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+}
